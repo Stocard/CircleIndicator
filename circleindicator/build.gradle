@@ -7,7 +7,7 @@ android {
     buildToolsVersion '22.0.1'
 
     defaultConfig {
-        minSdkVersion 11
+        minSdkVersion 10
         targetSdkVersion 22
         versionCode 115
         versionName version
@@ -23,6 +23,7 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:22.2.0'
+    compile 'com.nineoldandroids:library:2.4.0'
 }
 
 

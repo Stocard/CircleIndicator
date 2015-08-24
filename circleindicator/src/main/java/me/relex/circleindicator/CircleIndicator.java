@@ -1,7 +1,5 @@
 package me.relex.circleindicator;
 
-import android.animation.Animator;
-import android.animation.AnimatorInflater;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.support.annotation.AnimatorRes;
@@ -12,6 +10,9 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.animation.Interpolator;
 import android.widget.LinearLayout;
+
+import com.nineoldandroids.animation.Animator;
+import com.nineoldandroids.animation.AnimatorInflater;
 
 import static android.support.v4.view.ViewPager.OnPageChangeListener;
 
